@@ -1,0 +1,327 @@
+body {
+    font-family: "Montserrat";
+    min-width: 360px;
+    max-width: 1280px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 19% 16% 18% 18% 21%;
+    max-width: 1280px;
+    padding-right: 10%;
+    padding-left: 20%;
+    padding-top: 5%;
+
+    
+}
+
+@media screen and (max-width: 430px) {
+    main {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 16% 14% 50% 25% 17%;
+    padding: 1%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .main_img-img {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    }
+}
+
+.nav {
+    width: 41px;
+    height: 20px;
+   display: flex;
+   margin-top: 0;
+   padding-top: 0;
+   flex-direction: column; 
+   justify-content: space-between;  
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    padding-top: 1%;
+}
+.rectangle1 {
+    justify-content: center;
+    display: flex;
+    min-width: 52px;
+    min-height: 32px;
+    max-width: 62px;
+    max-height: 38px;
+    border-radius: 5px;
+    background: rgb(107, 90, 249);
+    align-items: center;
+}
+.rectangle25 {
+    position: relative;
+    width: 41px;
+    height: 4px;
+    background: rgb(107, 90, 249);
+    left: 24.39%;
+    right: -24.39%;
+}
+.rectangle26 {
+    position: relative;
+    width: 27px;
+    height: 4px;
+    background: rgb(107, 90, 249);
+    left: 24.39%;
+    right: 9.76%;
+}
+.rectangle27 {
+    position: relative;
+    width: 15px;
+    height: 4px;
+    background: rgb(107, 90, 249);
+    left: 24.39%;
+    right: 39.02%;
+ }
+
+.Vector_1{
+    width: 16.76px;
+    height: 16.79px;
+    left: 0.12%;
+    right: -0.12%;
+    top: 0%;
+    bottom: 0%;
+    visibility: inherit;
+}
+
+.rectangle2{
+    position: relative;
+    width: 4.46px;
+    height: 10.84px;
+    left: 23.98%;
+    right: -22.92%;
+    top: 28.75%;
+    background: rgb(107, 90, 249);
+    visibility: inherit;
+}
+.rectangle3{
+    position: relative;
+    width: 4.46px;
+    height: 19.84px;
+    left: 27.98%;
+    right: -22.92%;
+    top: 28.75%;
+    background: rgb(107, 90, 249);
+    visibility: inherit;
+}
+.rectangle4{
+    position: relative;
+    width: 4.46px;
+    height: 31.84px;
+    left: 31.98%;
+    right: -22.92%;
+    top: 28.75%;
+    background: rgb(107, 90, 249);
+    visibility: inherit;
+}
+.img {
+    display: flex;
+    align-items: center;
+    visibility: inherit;
+}
+
+.h1_1 {
+    font-weight: 700;
+    font-size: large;
+}
+
+.h1_2 {
+    font-weight: 700;
+    font-size: large;
+    color: rgb(107, 90, 249);
+}
+.main_div-main{
+    display: grid;
+    flex-wrap: wrap;
+}
+
+.colorful {
+    color: rgb(107, 90, 249);
+}
+
+.p_first {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.rectangle10 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 275px;
+    height: 60px;
+    border-radius: 5px;
+    background: rgb(107, 90, 249);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+@media screen and (min-width: 430px) {
+    .rectangle10 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        
+    }
+}
+
+@media screen and (min-width: 430px) {
+    .div_main-div {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 5;
+        
+    }
+}
+.p_second {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.div_main-div {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 137.4%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.span_main-second {
+    color: rgb(107, 90, 249);
+}
+
+.span_main-first {
+    color: rgb(42, 35, 103);
+}
+
+.rectangle11 {
+    width: 177px;
+    height: 60px;
+    display: flex;
+    background: rgb(107, 90, 249);
+    border-radius: 5px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.header_div-nav {
+    display: none;    
+    flex-wrap: wrap;
+    flex-direction: row;    
+    align-content: space-between;
+    justify-content: space-between;    
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 1280px) {    
+    .header_div-nav {
+    display: flex;    
+}
+    div.header_nav-tel-lap {        
+    display: none;
+}
+}
+.header_nav-tel-lap {
+    display: flex;    
+    flex-wrap: wrap;
+    flex-direction: row;   
+    align-content: space-between;
+    justify-content: space-between;    
+    align-items: center;
+    width: 100%;
+}
+
+.header_nav-tel-lap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1279px;
+}
+
+.nav_div-desctop {
+    color: rgb(42, 35, 103);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    visibility: inherit;
+}
+
+a {
+    padding: 20px;
+}
+
+.header_div-number {
+    color: rgb(42, 35, 103);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.header_p-number {
+    color: rgb(42, 35, 103);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.main_img-img {
+    max-width: 855px;
+    max-height: 569px;
+    width: 80%;
+    height: auto;
+}
