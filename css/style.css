@@ -52,8 +52,7 @@ header {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    padding: 5%;
-    padding-top: 1%;
+    padding: 1%;
 }
 .rectangle1 {
     justify-content: center;
