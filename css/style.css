@@ -29,7 +29,7 @@ main {
 }
 
 @media screen and (max-width: 430px) {
-    .main_img-img {
+    .main_img-content {
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 3;
@@ -52,7 +52,8 @@ header {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
+    padding: 5%;
+    padding-top: 1%;
 }
 .rectangle1 {
     justify-content: center;
@@ -130,7 +131,7 @@ header {
     background: rgb(107, 90, 249);
     visibility: inherit;
 }
-.img {
+.milenium {
     display: flex;
     align-items: center;
     visibility: inherit;
@@ -146,7 +147,7 @@ header {
     font-size: large;
     color: rgb(107, 90, 249);
 }
-.main_div-main{
+.main_div-header{
     display: grid;
     flex-wrap: wrap;
 }
@@ -155,7 +156,7 @@ header {
     color: rgb(107, 90, 249);
 }
 
-.p_first {
+.main_p-first {
     font-family: Montserrat;
     font-size: 12px;
     font-weight: 700;
@@ -187,14 +188,14 @@ header {
 }
 
 @media screen and (min-width: 430px) {
-    .div_main-div {
+    .div_main-consult {
         grid-column-start: 1;
         grid-column-end: 1;
         grid-row-start: 5;
         
     }
 }
-.p_second {
+.main_p-second {
     color: rgb(255, 255, 255);
     font-family: Montserrat;
     font-size: 12px;
@@ -204,7 +205,7 @@ header {
     text-align: center;
 }
 
-.div_main-div {
+.div_main-consult {
     font-family: Montserrat;
     font-size: 12px;
     font-weight: 500;
@@ -234,7 +235,7 @@ header {
 }
 
 
-.header_div-nav {
+.header_nav {
     display: none;    
     flex-wrap: wrap;
     flex-direction: row;    
@@ -245,7 +246,7 @@ header {
 }
 
 @media screen and (min-width: 1280px) {    
-    .header_div-nav {
+    .header_nav {
     display: flex;    
 }
     div.header_nav-tel-lap {        
@@ -272,7 +273,7 @@ header {
     max-width: 1279px;
 }
 
-.nav_div-desctop {
+.header_div-desctop {
     color: rgb(42, 35, 103);
     font-family: Montserrat;
     font-size: 14px;
@@ -318,7 +319,7 @@ a {
     text-align: left;
 }
 
-.main_img-img {
+.main_img-content {
     max-width: 855px;
     max-height: 569px;
     width: 80%;
